@@ -89,7 +89,8 @@ class HttpClient
         {
             $request->setHeader(Constants::CONTENT_TYPE, 'text/xml');
         }
-        $request->setHeader(Constants::Aliyun\MNS_VERSION_HEADER, Constants::Aliyun\MNS_VERSION);
+
+        $request->setHeader(Constants::MNS_VERSION_HEADER, Constants::MNS_VERSION);
 
         if ($this->securityToken != NULL)
         {
@@ -98,7 +99,7 @@ class HttpClient
 
         $sign = Signature::SignRequest($this->accessKey, $request);
         $request->setHeader(Constants::AUTHORIZATION,
-            Constants::Aliyun\MNS . " " . $this->accessId . ":" . $sign);
+            Constants::MNS . " " . $this->accessId . ":" . $sign);
     }
 
     public function sendRequestAsync(BaseRequest $request,

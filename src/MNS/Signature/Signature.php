@@ -8,7 +8,7 @@ class Signature
 {
     static public function SignRequest($accessKey, BaseRequest &$request)
     {
-        $canonicalizedAliyun\MNSHeaders = "";
+        $canonicalizedAliyunMNSHeaders = "";
         $headers = $request->getHeaders();
         $contentMd5 = "";
         if (isset($headers['Content-MD5']))
@@ -35,16 +35,16 @@ class Signature
         $tmpHeaders = array();
         foreach ($headers as $key => $value)
         {
-            if (0 === strpos($key, Constants::Aliyun\MNS_HEADER_PREFIX))
+            if (0 === strpos($key, Constants::MNS_HEADER_PREFIX))
             {
                 $tmpHeaders[$key] = $value;
             }
         }
         ksort($tmpHeaders);
 
-        $canonicalizedAliyun\MNSHeaders = implode("\n", array_map(function ($v, $k) { return $k . ":" . $v; }, $tmpHeaders, array_keys($tmpHeaders)));
+        $canonicalizedAliyunMNSHeaders = implode("\n", array_map(function ($v, $k) { return $k . ":" . $v; }, $tmpHeaders, array_keys($tmpHeaders)));
 
-        $stringToSign = strtoupper($request->getMethod()) . "\n" . $contentMd5 . "\n" . $contentType . "\n" . $date . "\n" . $canonicalizedAliyun\MNSHeaders . "\n" . $canonicalizedResource;
+        $stringToSign = strtoupper($request->getMethod()) . "\n" . $contentMd5 . "\n" . $contentType . "\n" . $date . "\n" . $canonicalizedAliyunMNSHeaders . "\n" . $canonicalizedResource;
 
         return base64_encode(hash_hmac("sha1", $stringToSign, $accessKey, $raw_output = TRUE));
     }

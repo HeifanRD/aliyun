@@ -38,7 +38,7 @@ class SetQueueAttributeRequest extends BaseRequest
         $xmlWriter = new \XMLWriter;
         $xmlWriter->openMemory();
         $xmlWriter->startDocument("1.0", "UTF-8");
-        $xmlWriter->startElementNS(NULL, "Queue", Constants::Aliyun\MNS_XML_NAMESPACE);
+        $xmlWriter->startElementNS(NULL, "Queue", Constants::MNS_XML_NAMESPACE);
         $this->attributes->writeXML($xmlWriter);
         $xmlWriter->endElement();
         $xmlWriter->endDocument();
