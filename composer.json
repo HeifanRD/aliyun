@@ -1,4 +1,17 @@
 {
+    "name": "aliyun",
+    "type": "library",
+    "description": "aliyun service",
+    "keywords": ["aliyun", "mns"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zengzhi wang",
+            "email": "wangzengzhi@heifan.cn",
+            "homepage": "https://github.com/HeifanRD"
+        }
+    ],
+
     "require": {
         "guzzlehttp/psr7": "^1.4",
         "guzzlehttp/guzzle": "^6.2",
