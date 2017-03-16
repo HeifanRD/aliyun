@@ -1,7 +1,7 @@
 <?php
-namespace AliyunMNS\Model;
+namespace MNS\Model;
 
-use AliyunMNS\Constants;
+use MNS\Constants;
 
 class SubscriptionAttributes
 {
@@ -9,7 +9,7 @@ class SubscriptionAttributes
     private $strategy;
     private $contentFormat;
 
-    # may change in AliyunMNS\Topic
+    # may change in MNS\Topic
     private $topicName;
 
     # the following attributes cannot be changed
@@ -33,7 +33,7 @@ class SubscriptionAttributes
         $this->contentFormat = $contentFormat;
         $this->subscriptionName = $subscriptionName;
 
-        //cloud change in AliyunMNS\Topic
+        //cloud change in MNS\Topic
         $this->topicName = $topicName;
 
         $this->topicOwner = $topicOwner;

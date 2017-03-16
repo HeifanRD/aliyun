@@ -1,9 +1,9 @@
 <?php
-namespace AliyunMNS\Requests;
+namespace MNS\Requests;
 
-use AliyunMNS\Constants;
-use AliyunMNS\Requests\BaseRequest;
-use AliyunMNS\Model\TopicAttributes;
+use MNS\Constants;
+use MNS\Requests\BaseRequest;
+use MNS\Model\TopicAttributes;
 
 class CreateTopicRequest extends BaseRequest
 {

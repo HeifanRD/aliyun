@@ -1,5 +1,5 @@
 <?php
-namespace AliyunMNS\Requests;
+namespace MNS\Requests;
 
 abstract class BaseRequest
 {

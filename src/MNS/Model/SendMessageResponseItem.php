@@ -1,8 +1,8 @@
 <?php
-namespace AliyunMNS\Model;
+namespace MNS\Model;
 
-use AliyunMNS\Constants;
-use AliyunMNS\Traits\MessageIdAndMD5;
+use MNS\Constants;
+use MNS\Traits\MessageIdAndMD5;
 
 /**
  * if isSucceed() == TRUE, the messageId and messageBodyMD5 are returned.

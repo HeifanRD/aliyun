@@ -1,9 +1,9 @@
 <?php
-namespace AliyunMNS\Requests;
+namespace MNS\Requests;
 
-use AliyunMNS\Constants;
-use AliyunMNS\Requests\BaseRequest;
-use AliyunMNS\Model\SendMessageRequestItem;
+use MNS\Constants;
+use MNS\Requests\BaseRequest;
+use MNS\Model\SendMessageRequestItem;
 
 class BatchSendMessageRequest extends BaseRequest
 {

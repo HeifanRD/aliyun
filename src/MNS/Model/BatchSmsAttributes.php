@@ -1,8 +1,8 @@
 <?php
-namespace AliyunMNS\Model;
+namespace MNS\Model;
 
-use AliyunMNS\Constants;
-use AliyunMNS\Exception\MnsException;
+use MNS\Constants;
+use MNS\Exception\MnsException;
 
 /**
  * Please refer to

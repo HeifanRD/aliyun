@@ -1,10 +1,10 @@
 <?php
-namespace AliyunMNS\Requests;
+namespace MNS\Requests;
 
-use AliyunMNS\Constants;
-use AliyunMNS\Requests\BaseRequest;
-use AliyunMNS\Model\QueueAttributes;
-use AliyunMNS\Traits\MessagePropertiesForSend;
+use MNS\Constants;
+use MNS\Requests\BaseRequest;
+use MNS\Model\QueueAttributes;
+use MNS\Traits\MessagePropertiesForSend;
 
 class SendMessageRequest extends BaseRequest
 {

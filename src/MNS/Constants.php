@@ -1,5 +1,5 @@
 <?php
-namespace AliyunMNS;
+namespace MNS;
 
 class Constants
 {

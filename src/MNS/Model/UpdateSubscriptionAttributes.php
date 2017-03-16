@@ -1,7 +1,7 @@
 <?php
-namespace AliyunMNS\Model;
+namespace MNS\Model;
 
-use AliyunMNS\Constants;
+use MNS\Constants;
 
 class UpdateSubscriptionAttributes
 {
@@ -9,7 +9,7 @@ class UpdateSubscriptionAttributes
 
     private $strategy;
 
-    # may change in AliyunMNS\Topic
+    # may change in MNS\Topic
     private $topicName;
 
     public function __construct(

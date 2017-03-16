@@ -1,9 +1,9 @@
 <?php
-namespace AliyunMNS\Responses;
+namespace MNS\Responses;
 
-use AliyunMNS\Exception\MnsException;
-use AliyunMNS\Responses\BaseResponse;
-use AliyunMNS\Common\XMLParser;
+use MNS\Exception\MnsException;
+use MNS\Responses\BaseResponse;
+use MNS\Common\XMLParser;
 
 class UnsubscribeResponse extends BaseResponse
 {

@@ -1,15 +1,15 @@
 <?php
-namespace AliyunMNS\Responses;
+namespace MNS\Responses;
 
-use AliyunMNS\Constants;
-use AliyunMNS\Exception\MnsException;
-use AliyunMNS\Exception\QueueNotExistException;
-use AliyunMNS\Exception\MessageNotExistException;
-use AliyunMNS\Exception\InvalidArgumentException;
-use AliyunMNS\Exception\ReceiptHandleErrorException;
-use AliyunMNS\Responses\BaseResponse;
-use AliyunMNS\Common\XMLParser;
-use AliyunMNS\Model\Message;
+use MNS\Constants;
+use MNS\Exception\MnsException;
+use MNS\Exception\QueueNotExistException;
+use MNS\Exception\MessageNotExistException;
+use MNS\Exception\InvalidArgumentException;
+use MNS\Exception\ReceiptHandleErrorException;
+use MNS\Responses\BaseResponse;
+use MNS\Common\XMLParser;
+use MNS\Model\Message;
 
 class ChangeMessageVisibilityResponse extends BaseResponse
 {

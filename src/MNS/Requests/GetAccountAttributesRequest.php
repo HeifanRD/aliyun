@@ -1,7 +1,7 @@
 <?php
-namespace AliyunMNS\Requests;
+namespace MNS\Requests;
 
-use AliyunMNS\Requests\BaseRequest;
+use MNS\Requests\BaseRequest;
 
 class GetAccountAttributesRequest extends BaseRequest
 {

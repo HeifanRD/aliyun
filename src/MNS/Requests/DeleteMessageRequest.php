@@ -1,8 +1,8 @@
 <?php
-namespace AliyunMNS\Requests;
+namespace MNS\Requests;
 
-use AliyunMNS\Constants;
-use AliyunMNS\Requests\BaseRequest;
+use MNS\Constants;
+use MNS\Requests\BaseRequest;
 
 class DeleteMessageRequest extends BaseRequest
 {

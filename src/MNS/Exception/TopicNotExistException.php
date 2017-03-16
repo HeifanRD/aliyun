@@ -1,7 +1,7 @@
 <?php
-namespace AliyunMNS\Exception;
+namespace MNS\Exception;
 
-use AliyunMNS\Exception\MnsException;
+use MNS\Exception\MnsException;
 
 class TopicNotExistException extends MnsException
 {

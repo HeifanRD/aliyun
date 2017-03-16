@@ -1,6 +1,6 @@
 <?php
-namespace AliyunMNS\Responses;
-use AliyunMNS\Exception\MnsException;
+namespace MNS\Responses;
+use MNS\Exception\MnsException;
 
 abstract class BaseResponse
 {

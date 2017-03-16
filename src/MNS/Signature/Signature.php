@@ -1,8 +1,8 @@
 <?php
-namespace AliyunMNS\Signature;
+namespace MNS\Signature;
 
-use AliyunMNS\Requests\BaseRequest;
-use AliyunMNS\Constants;
+use MNS\Requests\BaseRequest;
+use MNS\Constants;
 
 class Signature
 {

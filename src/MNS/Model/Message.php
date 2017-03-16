@@ -1,8 +1,8 @@
 <?php
-namespace AliyunMNS\Model;
+namespace MNS\Model;
 
-use AliyunMNS\Constants;
-use AliyunMNS\Traits\MessagePropertiesForReceive;
+use MNS\Constants;
+use MNS\Traits\MessagePropertiesForReceive;
 
 class Message
 {

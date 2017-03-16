@@ -1,12 +1,12 @@
 <?php
-namespace AliyunMNS\Responses;
+namespace MNS\Responses;
 
-use AliyunMNS\Constants;
-use AliyunMNS\Model\TopicAttributes;
-use AliyunMNS\Exception\MnsException;
-use AliyunMNS\Exception\TopicNotExistException;
-use AliyunMNS\Responses\BaseResponse;
-use AliyunMNS\Common\XMLParser;
+use MNS\Constants;
+use MNS\Model\TopicAttributes;
+use MNS\Exception\MnsException;
+use MNS\Exception\TopicNotExistException;
+use MNS\Responses\BaseResponse;
+use MNS\Common\XMLParser;
 
 class GetTopicAttributeResponse extends BaseResponse
 {

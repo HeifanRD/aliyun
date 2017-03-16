@@ -1,14 +1,14 @@
 <?php
-namespace AliyunMNS\Responses;
+namespace MNS\Responses;
 
-use AliyunMNS\Constants;
-use AliyunMNS\Exception\MnsException;
-use AliyunMNS\Exception\QueueNotExistException;
-use AliyunMNS\Exception\InvalidArgumentException;
-use AliyunMNS\Exception\MalformedXMLException;
-use AliyunMNS\Responses\BaseResponse;
-use AliyunMNS\Common\XMLParser;
-use AliyunMNS\Traits\MessageIdAndMD5;
+use MNS\Constants;
+use MNS\Exception\MnsException;
+use MNS\Exception\QueueNotExistException;
+use MNS\Exception\InvalidArgumentException;
+use MNS\Exception\MalformedXMLException;
+use MNS\Responses\BaseResponse;
+use MNS\Common\XMLParser;
+use MNS\Traits\MessageIdAndMD5;
 
 class SendMessageResponse extends BaseResponse
 {

@@ -1,31 +1,31 @@
 <?php
-namespace AliyunMNS;
+namespace MNS;
 
-use AliyunMNS\Http\HttpClient;
-use AliyunMNS\AsyncCallback;
-use AliyunMNS\Model\QueueAttributes;
-use AliyunMNS\Requests\SetQueueAttributeRequest;
-use AliyunMNS\Responses\SetQueueAttributeResponse;
-use AliyunMNS\Requests\GetQueueAttributeRequest;
-use AliyunMNS\Responses\GetQueueAttributeResponse;
-use AliyunMNS\Requests\SendMessageRequest;
-use AliyunMNS\Responses\SendMessageResponse;
-use AliyunMNS\Requests\PeekMessageRequest;
-use AliyunMNS\Responses\PeekMessageResponse;
-use AliyunMNS\Requests\ReceiveMessageRequest;
-use AliyunMNS\Responses\ReceiveMessageResponse;
-use AliyunMNS\Requests\DeleteMessageRequest;
-use AliyunMNS\Responses\DeleteMessageResponse;
-use AliyunMNS\Requests\ChangeMessageVisibilityRequest;
-use AliyunMNS\Responses\ChangeMessageVisibilityResponse;
-use AliyunMNS\Requests\BatchSendMessageRequest;
-use AliyunMNS\Responses\BatchSendMessageResponse;
-use AliyunMNS\Requests\BatchReceiveMessageRequest;
-use AliyunMNS\Responses\BatchReceiveMessageResponse;
-use AliyunMNS\Requests\BatchPeekMessageRequest;
-use AliyunMNS\Responses\BatchPeekMessageResponse;
-use AliyunMNS\Requests\BatchDeleteMessageRequest;
-use AliyunMNS\Responses\BatchDeleteMessageResponse;
+use MNS\Http\HttpClient;
+use MNS\AsyncCallback;
+use MNS\Model\QueueAttributes;
+use MNS\Requests\SetQueueAttributeRequest;
+use MNS\Responses\SetQueueAttributeResponse;
+use MNS\Requests\GetQueueAttributeRequest;
+use MNS\Responses\GetQueueAttributeResponse;
+use MNS\Requests\SendMessageRequest;
+use MNS\Responses\SendMessageResponse;
+use MNS\Requests\PeekMessageRequest;
+use MNS\Responses\PeekMessageResponse;
+use MNS\Requests\ReceiveMessageRequest;
+use MNS\Responses\ReceiveMessageResponse;
+use MNS\Requests\DeleteMessageRequest;
+use MNS\Responses\DeleteMessageResponse;
+use MNS\Requests\ChangeMessageVisibilityRequest;
+use MNS\Responses\ChangeMessageVisibilityResponse;
+use MNS\Requests\BatchSendMessageRequest;
+use MNS\Responses\BatchSendMessageResponse;
+use MNS\Requests\BatchReceiveMessageRequest;
+use MNS\Responses\BatchReceiveMessageResponse;
+use MNS\Requests\BatchPeekMessageRequest;
+use MNS\Responses\BatchPeekMessageResponse;
+use MNS\Requests\BatchDeleteMessageRequest;
+use MNS\Responses\BatchDeleteMessageResponse;
 
 class Queue
 {

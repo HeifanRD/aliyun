@@ -1,7 +1,7 @@
 <?php
-namespace AliyunMNS\Model;
+namespace MNS\Model;
 
-use AliyunMNS\Constants;
+use MNS\Constants;
 
 /**
  * Please refer to

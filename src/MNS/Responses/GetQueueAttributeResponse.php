@@ -1,13 +1,13 @@
 <?php
-namespace AliyunMNS\Responses;
+namespace MNS\Responses;
 
-use AliyunMNS\Constants;
-use AliyunMNS\Model\QueueAttributes;
-use AliyunMNS\Exception\MnsException;
-use AliyunMNS\Exception\QueueNotExistException;
-use AliyunMNS\Exception\InvalidArgumentException;
-use AliyunMNS\Responses\BaseResponse;
-use AliyunMNS\Common\XMLParser;
+use MNS\Constants;
+use MNS\Model\QueueAttributes;
+use MNS\Exception\MnsException;
+use MNS\Exception\QueueNotExistException;
+use MNS\Exception\InvalidArgumentException;
+use MNS\Responses\BaseResponse;
+use MNS\Common\XMLParser;
 
 class GetQueueAttributeResponse extends BaseResponse
 {

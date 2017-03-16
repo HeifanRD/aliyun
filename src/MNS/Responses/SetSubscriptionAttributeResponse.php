@@ -1,12 +1,12 @@
 <?php
-namespace AliyunMNS\Responses;
+namespace MNS\Responses;
 
-use AliyunMNS\Constants;
-use AliyunMNS\Exception\MnsException;
-use AliyunMNS\Exception\SubscriptionNotExistException;
-use AliyunMNS\Exception\InvalidArgumentException;
-use AliyunMNS\Responses\BaseResponse;
-use AliyunMNS\Common\XMLParser;
+use MNS\Constants;
+use MNS\Exception\MnsException;
+use MNS\Exception\SubscriptionNotExistException;
+use MNS\Exception\InvalidArgumentException;
+use MNS\Responses\BaseResponse;
+use MNS\Common\XMLParser;
 
 class SetSubscriptionAttributeResponse extends BaseResponse
 {
