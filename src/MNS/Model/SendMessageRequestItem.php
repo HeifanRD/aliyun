@@ -1,8 +1,8 @@
 <?php
-namespace MNS\Model;
+namespace Aliyun\MNS\Model;
 
-use MNS\Constants;
-use MNS\Traits\MessagePropertiesForSend;
+use Aliyun\MNS\Constants;
+use Aliyun\MNS\Traits\MessagePropertiesForSend;
 
 // this class is used for BatchSend
 class SendMessageRequestItem

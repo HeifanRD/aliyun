@@ -1,13 +1,13 @@
 <?php
-namespace MNS\Responses;
+namespace Aliyun\MNS\Responses;
 
-use MNS\Constants;
-use MNS\Exception\MnsException;
-use MNS\Exception\QueueNotExistException;
-use MNS\Exception\MessageNotExistException;
-use MNS\Responses\BaseResponse;
-use MNS\Common\XMLParser;
-use MNS\Traits\MessagePropertiesForReceive;
+use Aliyun\MNS\Constants;
+use Aliyun\MNS\Exception\MnsException;
+use Aliyun\MNS\Exception\QueueNotExistException;
+use Aliyun\MNS\Exception\MessageNotExistException;
+use Aliyun\MNS\Responses\BaseResponse;
+use Aliyun\MNS\Common\XMLParser;
+use Aliyun\MNS\Traits\MessagePropertiesForReceive;
 
 class ReceiveMessageResponse extends BaseResponse
 {

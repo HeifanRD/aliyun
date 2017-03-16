@@ -1,8 +1,8 @@
 <?php
-namespace MNS\Traits;
+namespace Aliyun\MNS\Traits;
 
-use MNS\Model\Message;
-use MNS\Traits\MessagePropertiesForPeek;
+use Aliyun\MNS\Model\Message;
+use Aliyun\MNS\Traits\MessagePropertiesForPeek;
 
 trait MessagePropertiesForReceive
 {

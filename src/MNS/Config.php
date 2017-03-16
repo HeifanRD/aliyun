@@ -1,5 +1,5 @@
 <?php
-namespace MNS;
+namespace Aliyun\MNS;
 
 class Config
 {

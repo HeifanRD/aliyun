@@ -1,7 +1,7 @@
 <?php
-namespace MNS\Requests;
+namespace Aliyun\MNS\Requests;
 
-use MNS\Requests\BaseRequest;
+use Aliyun\MNS\Requests\BaseRequest;
 
 class UnsubscribeRequest extends BaseRequest
 {

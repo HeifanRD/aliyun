@@ -1,9 +1,9 @@
 <?php
-namespace MNS\Traits;
+namespace Aliyun\MNS\Traits;
 
-use MNS\Constants;
-use MNS\Traits\MessageIdAndMD5;
-use MNS\Model\Message;
+use Aliyun\MNS\Constants;
+use Aliyun\MNS\Traits\MessageIdAndMD5;
+use Aliyun\MNS\Model\Message;
 
 trait MessagePropertiesForPeek
 {
