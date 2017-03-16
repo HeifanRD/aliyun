@@ -1,8 +1,8 @@
 <?php
-namespace MNS\Requests;
+namespace Aliyun\MNS\Requests;
 
-use MNS\Constants;
-use MNS\Requests\BaseRequest;
+use Aliyun\MNS\Constants;
+use Aliyun\MNS\Requests\BaseRequest;
 
 class ChangeMessageVisibilityRequest extends BaseRequest
 {

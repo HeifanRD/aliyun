@@ -1,14 +1,14 @@
 <?php
-namespace MNS\Signature;
+namespace Aliyun\MNS\Signature;
 
-use MNS\Requests\BaseRequest;
-use MNS\Constants;
+use Aliyun\MNS\Requests\BaseRequest;
+use Aliyun\MNS\Constants;
 
 class Signature
 {
     static public function SignRequest($accessKey, BaseRequest &$request)
     {
-        $canonicalizedMNSHeaders = "";
+        $canonicalizedAliyunMNSHeaders = "";
         $headers = $request->getHeaders();
         $contentMd5 = "";
         if (isset($headers['Content-MD5']))
@@ -42,9 +42,9 @@ class Signature
         }
         ksort($tmpHeaders);
 
-        $canonicalizedMNSHeaders = implode("\n", array_map(function ($v, $k) { return $k . ":" . $v; }, $tmpHeaders, array_keys($tmpHeaders)));
+        $canonicalizedAliyunMNSHeaders = implode("\n", array_map(function ($v, $k) { return $k . ":" . $v; }, $tmpHeaders, array_keys($tmpHeaders)));
 
-        $stringToSign = strtoupper($request->getMethod()) . "\n" . $contentMd5 . "\n" . $contentType . "\n" . $date . "\n" . $canonicalizedMNSHeaders . "\n" . $canonicalizedResource;
+        $stringToSign = strtoupper($request->getMethod()) . "\n" . $contentMd5 . "\n" . $contentType . "\n" . $date . "\n" . $canonicalizedAliyunMNSHeaders . "\n" . $canonicalizedResource;
 
         return base64_encode(hash_hmac("sha1", $stringToSign, $accessKey, $raw_output = TRUE));
     }

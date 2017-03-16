@@ -1,7 +1,7 @@
 <?php
-namespace MNS\Exception;
+namespace Aliyun\MNS\Exception;
 
-use MNS\Exception\MnsException;
+use Aliyun\MNS\Exception\MnsException;
 
 class ReceiptHandleErrorException extends MnsException
 {

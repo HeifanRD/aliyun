@@ -1,10 +1,10 @@
 <?php
-namespace MNS\Responses;
+namespace Aliyun\MNS\Responses;
 
-use MNS\Constants;
-use MNS\Exception\MnsException;
-use MNS\Responses\BaseResponse;
-use MNS\Common\XMLParser;
+use Aliyun\MNS\Constants;
+use Aliyun\MNS\Exception\MnsException;
+use Aliyun\MNS\Responses\BaseResponse;
+use Aliyun\MNS\Common\XMLParser;
 
 class SetAccountAttributesResponse extends BaseResponse
 {

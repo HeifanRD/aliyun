@@ -1,17 +1,17 @@
 <?php
-namespace MNS\Http;
+namespace Aliyun\MNS\Http;
 
-use MNS\Config;
-use MNS\Constants;
-use MNS\Exception\MnsException;
-use MNS\Requests\BaseRequest;
-use MNS\Responses\BaseResponse;
-use MNS\Signature\Signature;
-use MNS\AsyncCallback;
+use Aliyun\MNS\Config;
+use Aliyun\MNS\Constants;
+use Aliyun\MNS\Exception\MnsException;
+use Aliyun\MNS\Requests\BaseRequest;
+use Aliyun\MNS\Responses\BaseResponse;
+use Aliyun\MNS\Signature\Signature;
+use Aliyun\MNS\AsyncCallback;
 use Psr\Http\Message\ResponseInterface;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Exception\TransferException;
-use MNS\Responses\MnsPromise;
+use Aliyun\MNS\Responses\MnsPromise;
 
 class HttpClient
 {
@@ -89,6 +89,7 @@ class HttpClient
         {
             $request->setHeader(Constants::CONTENT_TYPE, 'text/xml');
         }
+
         $request->setHeader(Constants::MNS_VERSION_HEADER, Constants::MNS_VERSION);
 
         if ($this->securityToken != NULL)

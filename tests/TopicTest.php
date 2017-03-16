@@ -1,24 +1,23 @@
 <?php
-require_once(dirname(dirname(__FILE__)).'/mns-autoloader.php');
 
-use MNS\Client;
-use MNS\Topic;
-use MNS\Constants;
-use MNS\AsyncCallback;
-use MNS\Model\TopicAttributes;
-use MNS\Model\MailAttributes;
-use MNS\Model\SmsAttributes;
-use MNS\Model\BatchSmsAttributes;
-// use MNS\Model\WebSocketAttributes;
-use MNS\Model\MessageAttributes;
-use MNS\Model\SubscriptionAttributes;
-use MNS\Model\UpdateSubscriptionAttributes;
-use MNS\Exception\MnsException;
-use MNS\Requests\CreateQueueRequest;
-use MNS\Requests\CreateTopicRequest;
-use MNS\Requests\GetTopicAttributeRequest;
-use MNS\Requests\SetTopicAttributeRequest;
-use MNS\Requests\PublishMessageRequest;
+use Aliyun\MNS\Client;
+use Aliyun\MNS\Topic;
+use Aliyun\MNS\Constants;
+use Aliyun\MNS\AsyncCallback;
+use Aliyun\MNS\Model\TopicAttributes;
+use Aliyun\MNS\Model\MailAttributes;
+use Aliyun\MNS\Model\SmsAttributes;
+use Aliyun\MNS\Model\BatchSmsAttributes;
+// use Aliyun\MNS\Model\WebSocketAttributes;
+use Aliyun\MNS\Model\MessageAttributes;
+use Aliyun\MNS\Model\SubscriptionAttributes;
+use Aliyun\MNS\Model\UpdateSubscriptionAttributes;
+use Aliyun\MNS\Exception\MnsException;
+use Aliyun\MNS\Requests\CreateQueueRequest;
+use Aliyun\MNS\Requests\CreateTopicRequest;
+use Aliyun\MNS\Requests\GetTopicAttributeRequest;
+use Aliyun\MNS\Requests\SetTopicAttributeRequest;
+use Aliyun\MNS\Requests\PublishMessageRequest;
 
 class TopicTest extends \PHPUnit_Framework_TestCase
 {

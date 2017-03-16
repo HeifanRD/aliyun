@@ -1,7 +1,7 @@
 <?php
-namespace MNS\Model;
+namespace Aliyun\MNS\Model;
 
-use MNS\Constants;
+use Aliyun\MNS\Constants;
 
 class DeleteMessageErrorItem
 {

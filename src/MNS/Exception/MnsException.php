@@ -1,5 +1,5 @@
 <?php
-namespace MNS\Exception;
+namespace Aliyun\MNS\Exception;
 
 class MnsException extends \RuntimeException
 {

@@ -1,8 +1,8 @@
 <?php
-namespace MNS;
+namespace Aliyun\MNS;
 
-use MNS\Exception\MnsException;
-use MNS\Responses\BaseResponse;
+use Aliyun\MNS\Exception\MnsException;
+use Aliyun\MNS\Responses\BaseResponse;
 
 class AsyncCallback
 {

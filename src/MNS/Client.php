@@ -1,27 +1,27 @@
 <?php
-namespace MNS;
+namespace Aliyun\MNS;
 
-use MNS\Queue;
-use MNS\Config;
-use MNS\Http\HttpClient;
-use MNS\AsyncCallback;
-use MNS\Model\AccountAttributes;
-use MNS\Requests\CreateQueueRequest;
-use MNS\Responses\CreateQueueResponse;
-use MNS\Requests\ListQueueRequest;
-use MNS\Responses\ListQueueResponse;
-use MNS\Requests\DeleteQueueRequest;
-use MNS\Responses\DeleteQueueResponse;
-use MNS\Requests\CreateTopicRequest;
-use MNS\Responses\CreateTopicResponse;
-use MNS\Requests\DeleteTopicRequest;
-use MNS\Responses\DeleteTopicResponse;
-use MNS\Requests\ListTopicRequest;
-use MNS\Responses\ListTopicResponse;
-use MNS\Requests\GetAccountAttributesRequest;
-use MNS\Responses\GetAccountAttributesResponse;
-use MNS\Requests\SetAccountAttributesRequest;
-use MNS\Responses\SetAccountAttributesResponse;
+use Aliyun\MNS\Queue;
+use Aliyun\MNS\Config;
+use Aliyun\MNS\Http\HttpClient;
+use Aliyun\MNS\AsyncCallback;
+use Aliyun\MNS\Model\AccountAttributes;
+use Aliyun\MNS\Requests\CreateQueueRequest;
+use Aliyun\MNS\Responses\CreateQueueResponse;
+use Aliyun\MNS\Requests\ListQueueRequest;
+use Aliyun\MNS\Responses\ListQueueResponse;
+use Aliyun\MNS\Requests\DeleteQueueRequest;
+use Aliyun\MNS\Responses\DeleteQueueResponse;
+use Aliyun\MNS\Requests\CreateTopicRequest;
+use Aliyun\MNS\Responses\CreateTopicResponse;
+use Aliyun\MNS\Requests\DeleteTopicRequest;
+use Aliyun\MNS\Responses\DeleteTopicResponse;
+use Aliyun\MNS\Requests\ListTopicRequest;
+use Aliyun\MNS\Responses\ListTopicResponse;
+use Aliyun\MNS\Requests\GetAccountAttributesRequest;
+use Aliyun\MNS\Responses\GetAccountAttributesResponse;
+use Aliyun\MNS\Requests\SetAccountAttributesRequest;
+use Aliyun\MNS\Responses\SetAccountAttributesResponse;
 
 /**
  * Please refer to
