@@ -1,19 +1,18 @@
 <?php
-require_once(dirname(dirname(__FILE__)).'/mns-autoloader.php');
 
-use MNS\Client;
-use MNS\Constants;
-use MNS\AsyncCallback;
-use MNS\Model\QueueAttributes;
-use MNS\Model\TopicAttributes;
-use MNS\Model\AccountAttributes;
-use MNS\Exception\MnsException;
-use MNS\Requests\CreateQueueRequest;
-use MNS\Requests\CreateTopicRequest;
-use MNS\Requests\ListQueueRequest;
-use MNS\Requests\ListTopicRequest;
-use MNS\Requests\SetAccountAttributesRequest;
-use MNS\Requests\GetAccountAttributesRequest;
+use Aliyun\MNS\Client;
+use Aliyun\MNS\Constants;
+use Aliyun\MNS\AsyncCallback;
+use Aliyun\MNS\Model\QueueAttributes;
+use Aliyun\MNS\Model\TopicAttributes;
+use Aliyun\MNS\Model\AccountAttributes;
+use Aliyun\MNS\Exception\MnsException;
+use Aliyun\MNS\Requests\CreateQueueRequest;
+use Aliyun\MNS\Requests\CreateTopicRequest;
+use Aliyun\MNS\Requests\ListQueueRequest;
+use Aliyun\MNS\Requests\ListTopicRequest;
+use Aliyun\MNS\Requests\SetAccountAttributesRequest;
+use Aliyun\MNS\Requests\GetAccountAttributesRequest;
 
 class ClientTest extends \PHPUnit_Framework_TestCase
 {

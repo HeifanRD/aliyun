@@ -1,17 +1,17 @@
 <?php
-namespace MNS;
+namespace Aliyun\MNS;
 
 class Constants
 {
     const GMT_DATE_FORMAT = "D, d M Y H:i:s \\G\\M\\T";
 
-    const MNS_VERSION_HEADER = "x-mns-version";
-    const MNS_HEADER_PREFIX = "x-mns";
-    const MNS_XML_NAMESPACE = "http://mns.aliyuncs.com/doc/v1/";
+    const Aliyun\MNS_VERSION_HEADER = "x-mns-version";
+    const Aliyun\MNS_HEADER_PREFIX = "x-mns";
+    const Aliyun\MNS_XML_NAMESPACE = "http://mns.aliyuncs.com/doc/v1/";
 
-    const MNS_VERSION = "2015-06-06";
+    const Aliyun\MNS_VERSION = "2015-06-06";
     const AUTHORIZATION = "Authorization";
-    const MNS = "MNS";
+    const Aliyun\MNS = "Aliyun\MNS";
 
     const CONTENT_LENGTH = "Content-Length";
     const CONTENT_TYPE = "Content-Type";
@@ -57,7 +57,7 @@ class Constants
     const SMS_PARAMS = "SmsParams";
     const IMPORTANCE_LEVEL = "ImportanceLevel";
 
-    // some MNS ErrorCodes
+    // some Aliyun\MNS ErrorCodes
     const INVALID_ARGUMENT = "InvalidArgument";
     const QUEUE_ALREADY_EXIST = "QueueAlreadyExist";
     const QUEUE_NOT_EXIST = "QueueNotExist";

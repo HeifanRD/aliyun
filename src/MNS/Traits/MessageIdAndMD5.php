@@ -1,8 +1,8 @@
 <?php
-namespace MNS\Traits;
+namespace Aliyun\MNS\Traits;
 
-use MNS\Constants;
-use MNS\Model\Message;
+use Aliyun\MNS\Constants;
+use Aliyun\MNS\Model\Message;
 
 trait MessageIdAndMD5
 {

@@ -1,9 +1,9 @@
 <?php
-namespace MNS\Requests;
+namespace Aliyun\MNS\Requests;
 
-use MNS\Constants;
-use MNS\Requests\BaseRequest;
-use MNS\Model\QueueAttributes;
+use Aliyun\MNS\Constants;
+use Aliyun\MNS\Requests\BaseRequest;
+use Aliyun\MNS\Model\QueueAttributes;
 
 class CreateQueueRequest extends BaseRequest
 {
@@ -38,7 +38,7 @@ class CreateQueueRequest extends BaseRequest
         $xmlWriter = new \XMLWriter;
         $xmlWriter->openMemory();
         $xmlWriter->startDocument("1.0", "UTF-8");
-        $xmlWriter->startElementNS(NULL, "Queue", Constants::MNS_XML_NAMESPACE);
+        $xmlWriter->startElementNS(NULL, "Queue", Constants::Aliyun\MNS_XML_NAMESPACE);
         $this->attributes->writeXML($xmlWriter);
         $xmlWriter->endElement();
         $xmlWriter->endDocument();

@@ -1,8 +1,8 @@
 <?php
-namespace MNS\Requests;
+namespace Aliyun\MNS\Requests;
 
-use MNS\Constants;
-use MNS\Requests\BaseRequest;
+use Aliyun\MNS\Constants;
+use Aliyun\MNS\Requests\BaseRequest;
 
 class BatchDeleteMessageRequest extends BaseRequest
 {
@@ -32,7 +32,7 @@ class BatchDeleteMessageRequest extends BaseRequest
         $xmlWriter = new \XMLWriter;
         $xmlWriter->openMemory();
         $xmlWriter->startDocument("1.0", "UTF-8");
-        $xmlWriter->startElementNS(NULL, Constants::RECEIPT_HANDLES, Constants::MNS_XML_NAMESPACE);
+        $xmlWriter->startElementNS(NULL, Constants::RECEIPT_HANDLES, Constants::Aliyun\MNS_XML_NAMESPACE);
         foreach ($this->receiptHandles as $receiptHandle)
         {
             $xmlWriter->writeElement(Constants::RECEIPT_HANDLE, $receiptHandle);

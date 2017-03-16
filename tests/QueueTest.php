@@ -1,21 +1,20 @@
 <?php
-require_once(dirname(dirname(__FILE__)).'/mns-autoloader.php');
 
-use MNS\Client;
-use MNS\Constants;
-use MNS\AsyncCallback;
-use MNS\Model\QueueAttributes;
-use MNS\Exception\MnsException;
-use MNS\Exception\BatchSendFailException;
-use MNS\Exception\BatchDeleteFailException;
-use MNS\Requests\CreateQueueRequest;
-use MNS\Requests\GetQueueAttributeRequest;
-use MNS\Requests\SetQueueAttributeRequest;
-use MNS\Requests\SendMessageRequest;
-use MNS\Requests\BatchSendMessageRequest;
-use MNS\Requests\BatchReceiveMessageRequest;
-use MNS\Requests\BatchPeekMessageRequest;
-use MNS\Model\SendMessageRequestItem;
+use Aliyun\MNS\Client;
+use Aliyun\MNS\Constants;
+use Aliyun\MNS\AsyncCallback;
+use Aliyun\MNS\Model\QueueAttributes;
+use Aliyun\MNS\Exception\MnsException;
+use Aliyun\MNS\Exception\BatchSendFailException;
+use Aliyun\MNS\Exception\BatchDeleteFailException;
+use Aliyun\MNS\Requests\CreateQueueRequest;
+use Aliyun\MNS\Requests\GetQueueAttributeRequest;
+use Aliyun\MNS\Requests\SetQueueAttributeRequest;
+use Aliyun\MNS\Requests\SendMessageRequest;
+use Aliyun\MNS\Requests\BatchSendMessageRequest;
+use Aliyun\MNS\Requests\BatchReceiveMessageRequest;
+use Aliyun\MNS\Requests\BatchPeekMessageRequest;
+use Aliyun\MNS\Model\SendMessageRequestItem;
 
 class QueueTest extends \PHPUnit_Framework_TestCase
 {

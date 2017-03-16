@@ -1,9 +1,9 @@
 <?php
-namespace MNS\Exception;
+namespace Aliyun\MNS\Exception;
 
-use MNS\Constants;
-use MNS\Exception\MnsException;
-use MNS\Model\DeleteMessageErrorItem;
+use Aliyun\MNS\Constants;
+use Aliyun\MNS\Exception\MnsException;
+use Aliyun\MNS\Model\DeleteMessageErrorItem;
 
 /**
  * BatchDelete could fail for some receipt handles,

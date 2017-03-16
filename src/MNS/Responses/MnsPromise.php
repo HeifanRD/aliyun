@@ -1,9 +1,9 @@
 <?php
-namespace MNS\Responses;
+namespace Aliyun\MNS\Responses;
 
 use GuzzleHttp\Promise\PromiseInterface;
-use MNS\Responses\BaseResponse;
-use MNS\Exception\MnsException;
+use Aliyun\MNS\Responses\BaseResponse;
+use Aliyun\MNS\Exception\MnsException;
 use GuzzleHttp\Exception\TransferException;
 use Psr\Http\Message\ResponseInterface;
 

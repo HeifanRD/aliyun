@@ -1,9 +1,9 @@
 <?php
-namespace MNS\Requests;
+namespace Aliyun\MNS\Requests;
 
-use MNS\Constants;
-use MNS\Requests\BaseRequest;
-use MNS\Traits\MessagePropertiesForPublish;
+use Aliyun\MNS\Constants;
+use Aliyun\MNS\Requests\BaseRequest;
+use Aliyun\MNS\Traits\MessagePropertiesForPublish;
 
 class PublishMessageRequest extends BaseRequest
 {
@@ -36,7 +36,7 @@ class PublishMessageRequest extends BaseRequest
         $xmlWriter = new \XMLWriter;
         $xmlWriter->openMemory();
         $xmlWriter->startDocument("1.0", "UTF-8");
-        $xmlWriter->startElementNS(NULL, "Message", Constants::MNS_XML_NAMESPACE);
+        $xmlWriter->startElementNS(NULL, "Message", Constants::Aliyun\MNS_XML_NAMESPACE);
         $this->writeMessagePropertiesForPublishXML($xmlWriter);
         $xmlWriter->endElement();
         $xmlWriter->endDocument();

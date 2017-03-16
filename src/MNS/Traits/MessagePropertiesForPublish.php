@@ -1,8 +1,8 @@
 <?php
-namespace MNS\Traits;
+namespace Aliyun\MNS\Traits;
 
-use MNS\Constants;
-use MNS\Model\MessageAttributes;
+use Aliyun\MNS\Constants;
+use Aliyun\MNS\Model\MessageAttributes;
 
 trait MessagePropertiesForPublish
 {

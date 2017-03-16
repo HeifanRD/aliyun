@@ -1,27 +1,27 @@
 <?php
-namespace MNS;
+namespace Aliyun\MNS;
 
-use MNS\Http\HttpClient;
-use MNS\AsyncCallback;
-use MNS\Model\TopicAttributes;
-use MNS\Model\SubscriptionAttributes;
-use MNS\Model\UpdateSubscriptionAttributes;
-use MNS\Requests\SetTopicAttributeRequest;
-use MNS\Responses\SetTopicAttributeResponse;
-use MNS\Requests\GetTopicAttributeRequest;
-use MNS\Responses\GetTopicAttributeResponse;
-use MNS\Requests\PublishMessageRequest;
-use MNS\Responses\PublishMessageResponse;
-use MNS\Requests\SubscribeRequest;
-use MNS\Responses\SubscribeResponse;
-use MNS\Requests\UnsubscribeRequest;
-use MNS\Responses\UnsubscribeResponse;
-use MNS\Requests\GetSubscriptionAttributeRequest;
-use MNS\Responses\GetSubscriptionAttributeResponse;
-use MNS\Requests\SetSubscriptionAttributeRequest;
-use MNS\Responses\SetSubscriptionAttributeResponse;
-use MNS\Requests\ListSubscriptionRequest;
-use MNS\Responses\ListSubscriptionResponse;
+use Aliyun\MNS\Http\HttpClient;
+use Aliyun\MNS\AsyncCallback;
+use Aliyun\MNS\Model\TopicAttributes;
+use Aliyun\MNS\Model\SubscriptionAttributes;
+use Aliyun\MNS\Model\UpdateSubscriptionAttributes;
+use Aliyun\MNS\Requests\SetTopicAttributeRequest;
+use Aliyun\MNS\Responses\SetTopicAttributeResponse;
+use Aliyun\MNS\Requests\GetTopicAttributeRequest;
+use Aliyun\MNS\Responses\GetTopicAttributeResponse;
+use Aliyun\MNS\Requests\PublishMessageRequest;
+use Aliyun\MNS\Responses\PublishMessageResponse;
+use Aliyun\MNS\Requests\SubscribeRequest;
+use Aliyun\MNS\Responses\SubscribeResponse;
+use Aliyun\MNS\Requests\UnsubscribeRequest;
+use Aliyun\MNS\Responses\UnsubscribeResponse;
+use Aliyun\MNS\Requests\GetSubscriptionAttributeRequest;
+use Aliyun\MNS\Responses\GetSubscriptionAttributeResponse;
+use Aliyun\MNS\Requests\SetSubscriptionAttributeRequest;
+use Aliyun\MNS\Responses\SetSubscriptionAttributeResponse;
+use Aliyun\MNS\Requests\ListSubscriptionRequest;
+use Aliyun\MNS\Responses\ListSubscriptionResponse;
 
 class Topic
 {
