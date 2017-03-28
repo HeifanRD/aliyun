@@ -1,12 +1,12 @@
 <?php
-namespace Aliyun\MNS\Responses;
+namespace Heifan\MNS\Responses;
 
-use Aliyun\MNS\Constants;
-use Aliyun\MNS\Exception\MnsException;
-use Aliyun\MNS\Exception\QueueAlreadyExistException;
-use Aliyun\MNS\Exception\InvalidArgumentException;
-use Aliyun\MNS\Responses\BaseResponse;
-use Aliyun\MNS\Common\XMLParser;
+use Heifan\MNS\Constants;
+use Heifan\MNS\Exception\MnsException;
+use Heifan\MNS\Exception\QueueAlreadyExistException;
+use Heifan\MNS\Exception\InvalidArgumentException;
+use Heifan\MNS\Responses\BaseResponse;
+use Heifan\MNS\Common\XMLParser;
 
 class CreateQueueResponse extends BaseResponse
 {

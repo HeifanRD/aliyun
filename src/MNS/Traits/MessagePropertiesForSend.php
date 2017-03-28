@@ -1,7 +1,7 @@
 <?php
-namespace Aliyun\MNS\Traits;
+namespace Heifan\MNS\Traits;
 
-use Aliyun\MNS\Constants;
+use Heifan\MNS\Constants;
 
 trait MessagePropertiesForSend
 {

@@ -1,8 +1,8 @@
 <?php
-namespace Aliyun\MNS\Model;
+namespace Heifan\MNS\Model;
 
-use Aliyun\MNS\Constants;
-use Aliyun\MNS\Exception\MnsException;
+use Heifan\MNS\Constants;
+use Heifan\MNS\Exception\MnsException;
 
 class WebSocketAttributes
 {

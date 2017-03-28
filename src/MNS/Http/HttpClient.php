@@ -1,17 +1,17 @@
 <?php
-namespace Aliyun\MNS\Http;
+namespace Heifan\MNS\Http;
 
-use Aliyun\MNS\Config;
-use Aliyun\MNS\Constants;
-use Aliyun\MNS\Exception\MnsException;
-use Aliyun\MNS\Requests\BaseRequest;
-use Aliyun\MNS\Responses\BaseResponse;
-use Aliyun\MNS\Signature\Signature;
-use Aliyun\MNS\AsyncCallback;
+use Heifan\MNS\Config;
+use Heifan\MNS\Constants;
+use Heifan\MNS\Exception\MnsException;
+use Heifan\MNS\Requests\BaseRequest;
+use Heifan\MNS\Responses\BaseResponse;
+use Heifan\MNS\Signature\Signature;
+use Heifan\MNS\AsyncCallback;
 use Psr\Http\Message\ResponseInterface;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Exception\TransferException;
-use Aliyun\MNS\Responses\MnsPromise;
+use Heifan\MNS\Responses\MnsPromise;
 
 class HttpClient
 {

@@ -1,7 +1,7 @@
 <?php
-namespace Aliyun\MNS\Requests;
+namespace Heifan\MNS\Requests;
 
-use Aliyun\MNS\Requests\BaseRequest;
+use Heifan\MNS\Requests\BaseRequest;
 
 class ListTopicRequest extends BaseRequest
 {

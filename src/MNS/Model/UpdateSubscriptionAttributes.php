@@ -1,7 +1,7 @@
 <?php
-namespace Aliyun\MNS\Model;
+namespace Heifan\MNS\Model;
 
-use Aliyun\MNS\Constants;
+use Heifan\MNS\Constants;
 
 class UpdateSubscriptionAttributes
 {
@@ -9,7 +9,7 @@ class UpdateSubscriptionAttributes
 
     private $strategy;
 
-    # may change in Aliyun\MNS\Topic
+    # may change in Heifan\MNS\Topic
     private $topicName;
 
     public function __construct(

@@ -1,31 +1,31 @@
 <?php
-namespace Aliyun\MNS;
+namespace Heifan\MNS;
 
-use Aliyun\MNS\Http\HttpClient;
-use Aliyun\MNS\AsyncCallback;
-use Aliyun\MNS\Model\QueueAttributes;
-use Aliyun\MNS\Requests\SetQueueAttributeRequest;
-use Aliyun\MNS\Responses\SetQueueAttributeResponse;
-use Aliyun\MNS\Requests\GetQueueAttributeRequest;
-use Aliyun\MNS\Responses\GetQueueAttributeResponse;
-use Aliyun\MNS\Requests\SendMessageRequest;
-use Aliyun\MNS\Responses\SendMessageResponse;
-use Aliyun\MNS\Requests\PeekMessageRequest;
-use Aliyun\MNS\Responses\PeekMessageResponse;
-use Aliyun\MNS\Requests\ReceiveMessageRequest;
-use Aliyun\MNS\Responses\ReceiveMessageResponse;
-use Aliyun\MNS\Requests\DeleteMessageRequest;
-use Aliyun\MNS\Responses\DeleteMessageResponse;
-use Aliyun\MNS\Requests\ChangeMessageVisibilityRequest;
-use Aliyun\MNS\Responses\ChangeMessageVisibilityResponse;
-use Aliyun\MNS\Requests\BatchSendMessageRequest;
-use Aliyun\MNS\Responses\BatchSendMessageResponse;
-use Aliyun\MNS\Requests\BatchReceiveMessageRequest;
-use Aliyun\MNS\Responses\BatchReceiveMessageResponse;
-use Aliyun\MNS\Requests\BatchPeekMessageRequest;
-use Aliyun\MNS\Responses\BatchPeekMessageResponse;
-use Aliyun\MNS\Requests\BatchDeleteMessageRequest;
-use Aliyun\MNS\Responses\BatchDeleteMessageResponse;
+use Heifan\MNS\Http\HttpClient;
+use Heifan\MNS\AsyncCallback;
+use Heifan\MNS\Model\QueueAttributes;
+use Heifan\MNS\Requests\SetQueueAttributeRequest;
+use Heifan\MNS\Responses\SetQueueAttributeResponse;
+use Heifan\MNS\Requests\GetQueueAttributeRequest;
+use Heifan\MNS\Responses\GetQueueAttributeResponse;
+use Heifan\MNS\Requests\SendMessageRequest;
+use Heifan\MNS\Responses\SendMessageResponse;
+use Heifan\MNS\Requests\PeekMessageRequest;
+use Heifan\MNS\Responses\PeekMessageResponse;
+use Heifan\MNS\Requests\ReceiveMessageRequest;
+use Heifan\MNS\Responses\ReceiveMessageResponse;
+use Heifan\MNS\Requests\DeleteMessageRequest;
+use Heifan\MNS\Responses\DeleteMessageResponse;
+use Heifan\MNS\Requests\ChangeMessageVisibilityRequest;
+use Heifan\MNS\Responses\ChangeMessageVisibilityResponse;
+use Heifan\MNS\Requests\BatchSendMessageRequest;
+use Heifan\MNS\Responses\BatchSendMessageResponse;
+use Heifan\MNS\Requests\BatchReceiveMessageRequest;
+use Heifan\MNS\Responses\BatchReceiveMessageResponse;
+use Heifan\MNS\Requests\BatchPeekMessageRequest;
+use Heifan\MNS\Responses\BatchPeekMessageResponse;
+use Heifan\MNS\Requests\BatchDeleteMessageRequest;
+use Heifan\MNS\Responses\BatchDeleteMessageResponse;
 
 class Queue
 {

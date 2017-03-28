@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "669aa7c68fe96c35c836ac81d184329e",
+    "content-hash": "23b2eee557347e51b80bcce22568a818",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
@@ -183,101 +183,6 @@
                 "url"
             ],
             "time": "2017-02-27T10:51:17+00:00"
-        },
-        {
-            "name": "phpunit/php-invoker",
-            "version": "1.1.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/php-invoker.git",
-                "reference": "86074bf0fc2caf02ec8819a93f65a37cd0b44c8e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://files.phpcomposer.com/files/sebastianbergmann/php-invoker/86074bf0fc2caf02ec8819a93f65a37cd0b44c8e.zip",
-                "reference": "86074bf0fc2caf02ec8819a93f65a37cd0b44c8e",
-                "shasum": ""
-            },
-            "require": {
-                "ext-pcntl": "*",
-                "php": ">=5.3.3",
-                "phpunit/php-timer": ">=1.0.6"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~4"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "src/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Sebastian Bergmann",
-                    "email": "sebastian@phpunit.de",
-                    "role": "lead"
-                }
-            ],
-            "description": "Utility class for invoking callables with a timeout.",
-            "homepage": "https://github.com/sebastianbergmann/php-invoker/",
-            "keywords": [
-                "process"
-            ],
-            "time": "2015-06-21T13:32:55+00:00"
-        },
-        {
-            "name": "phpunit/php-timer",
-            "version": "1.0.9",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/php-timer.git",
-                "reference": "3dcf38ca72b158baf0bc245e9184d3fdffa9c46f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://files.phpcomposer.com/files/sebastianbergmann/php-timer/3dcf38ca72b158baf0bc245e9184d3fdffa9c46f.zip",
-                "reference": "3dcf38ca72b158baf0bc245e9184d3fdffa9c46f",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^5.3.3 || ^7.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0-dev"
-                }
-            },
-            "autoload": {
-                "classmap": [
-                    "src/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Sebastian Bergmann",
-                    "email": "sb@sebastian-bergmann.de",
-                    "role": "lead"
-                }
-            ],
-            "description": "Utility class for timing",
-            "homepage": "https://github.com/sebastianbergmann/php-timer/",
-            "keywords": [
-                "timer"
-            ],
-            "time": "2017-02-26T11:10:40+00:00"
         },
         {
             "name": "psr/http-message",
@@ -747,6 +652,52 @@
             "time": "2016-10-03T07:40:28+00:00"
         },
         {
+            "name": "phpunit/php-invoker",
+            "version": "1.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/php-invoker.git",
+                "reference": "86074bf0fc2caf02ec8819a93f65a37cd0b44c8e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/sebastianbergmann/php-invoker/86074bf0fc2caf02ec8819a93f65a37cd0b44c8e.zip",
+                "reference": "86074bf0fc2caf02ec8819a93f65a37cd0b44c8e",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pcntl": "*",
+                "php": ">=5.3.3",
+                "phpunit/php-timer": ">=1.0.6"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "Utility class for invoking callables with a timeout.",
+            "homepage": "https://github.com/sebastianbergmann/php-invoker/",
+            "keywords": [
+                "process"
+            ],
+            "time": "2015-06-21T13:32:55+00:00"
+        },
+        {
             "name": "phpunit/php-text-template",
             "version": "1.2.1",
             "source": {
@@ -786,6 +737,55 @@
                 "template"
             ],
             "time": "2015-06-21T13:50:34+00:00"
+        },
+        {
+            "name": "phpunit/php-timer",
+            "version": "1.0.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/php-timer.git",
+                "reference": "3dcf38ca72b158baf0bc245e9184d3fdffa9c46f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/sebastianbergmann/php-timer/3dcf38ca72b158baf0bc245e9184d3fdffa9c46f.zip",
+                "reference": "3dcf38ca72b158baf0bc245e9184d3fdffa9c46f",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3.3 || ^7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sb@sebastian-bergmann.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "Utility class for timing",
+            "homepage": "https://github.com/sebastianbergmann/php-timer/",
+            "keywords": [
+                "timer"
+            ],
+            "time": "2017-02-26T11:10:40+00:00"
         },
         {
             "name": "phpunit/php-token-stream",

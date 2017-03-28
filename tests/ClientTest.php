@@ -1,18 +1,18 @@
 <?php
 
-use Aliyun\MNS\Client;
-use Aliyun\MNS\Constants;
-use Aliyun\MNS\AsyncCallback;
-use Aliyun\MNS\Model\QueueAttributes;
-use Aliyun\MNS\Model\TopicAttributes;
-use Aliyun\MNS\Model\AccountAttributes;
-use Aliyun\MNS\Exception\MnsException;
-use Aliyun\MNS\Requests\CreateQueueRequest;
-use Aliyun\MNS\Requests\CreateTopicRequest;
-use Aliyun\MNS\Requests\ListQueueRequest;
-use Aliyun\MNS\Requests\ListTopicRequest;
-use Aliyun\MNS\Requests\SetAccountAttributesRequest;
-use Aliyun\MNS\Requests\GetAccountAttributesRequest;
+use Heifan\MNS\Client;
+use Heifan\MNS\Constants;
+use Heifan\MNS\AsyncCallback;
+use Heifan\MNS\Model\QueueAttributes;
+use Heifan\MNS\Model\TopicAttributes;
+use Heifan\MNS\Model\AccountAttributes;
+use Heifan\MNS\Exception\MnsException;
+use Heifan\MNS\Requests\CreateQueueRequest;
+use Heifan\MNS\Requests\CreateTopicRequest;
+use Heifan\MNS\Requests\ListQueueRequest;
+use Heifan\MNS\Requests\ListTopicRequest;
+use Heifan\MNS\Requests\SetAccountAttributesRequest;
+use Heifan\MNS\Requests\GetAccountAttributesRequest;
 
 class ClientTest extends \PHPUnit_Framework_TestCase
 {

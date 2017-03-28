@@ -1,9 +1,9 @@
 <?php
-namespace Aliyun\MNS\Requests;
+namespace Heifan\MNS\Requests;
 
-use Aliyun\MNS\Constants;
-use Aliyun\MNS\Requests\BaseRequest;
-use Aliyun\MNS\Traits\MessagePropertiesForPublish;
+use Heifan\MNS\Constants;
+use Heifan\MNS\Requests\BaseRequest;
+use Heifan\MNS\Traits\MessagePropertiesForPublish;
 
 class PublishMessageRequest extends BaseRequest
 {
