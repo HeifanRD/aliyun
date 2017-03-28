@@ -1,5 +1,5 @@
 {
-    "name": "heifan/aliyun",
+    "name": "heifan/mns",
     "type": "library",
     "description": "aliyun service",
     "keywords": ["aliyun", "mns"],
@@ -22,7 +22,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Aliyun\\": "src/",
+            "Heifan\\": "src/",
             "Tests\\": "tests/"
         }
     },

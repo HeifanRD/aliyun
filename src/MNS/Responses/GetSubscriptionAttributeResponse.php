@@ -1,12 +1,12 @@
 <?php
-namespace Aliyun\MNS\Responses;
+namespace Heifan\MNS\Responses;
 
-use Aliyun\MNS\Constants;
-use Aliyun\MNS\Model\SubscriptionAttributes;
-use Aliyun\MNS\Exception\MnsException;
-use Aliyun\MNS\Exception\SubscriptionNotExistException;
-use Aliyun\MNS\Responses\BaseResponse;
-use Aliyun\MNS\Common\XMLParser;
+use Heifan\MNS\Constants;
+use Heifan\MNS\Model\SubscriptionAttributes;
+use Heifan\MNS\Exception\MnsException;
+use Heifan\MNS\Exception\SubscriptionNotExistException;
+use Heifan\MNS\Responses\BaseResponse;
+use Heifan\MNS\Common\XMLParser;
 
 class GetSubscriptionAttributeResponse extends BaseResponse
 {

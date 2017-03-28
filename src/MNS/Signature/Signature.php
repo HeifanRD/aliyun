@@ -1,8 +1,8 @@
 <?php
-namespace Aliyun\MNS\Signature;
+namespace Heifan\MNS\Signature;
 
-use Aliyun\MNS\Requests\BaseRequest;
-use Aliyun\MNS\Constants;
+use Heifan\MNS\Requests\BaseRequest;
+use Heifan\MNS\Constants;
 
 class Signature
 {

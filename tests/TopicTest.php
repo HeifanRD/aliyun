@@ -1,23 +1,23 @@
 <?php
 
-use Aliyun\MNS\Client;
-use Aliyun\MNS\Topic;
-use Aliyun\MNS\Constants;
-use Aliyun\MNS\AsyncCallback;
-use Aliyun\MNS\Model\TopicAttributes;
-use Aliyun\MNS\Model\MailAttributes;
-use Aliyun\MNS\Model\SmsAttributes;
-use Aliyun\MNS\Model\BatchSmsAttributes;
-// use Aliyun\MNS\Model\WebSocketAttributes;
-use Aliyun\MNS\Model\MessageAttributes;
-use Aliyun\MNS\Model\SubscriptionAttributes;
-use Aliyun\MNS\Model\UpdateSubscriptionAttributes;
-use Aliyun\MNS\Exception\MnsException;
-use Aliyun\MNS\Requests\CreateQueueRequest;
-use Aliyun\MNS\Requests\CreateTopicRequest;
-use Aliyun\MNS\Requests\GetTopicAttributeRequest;
-use Aliyun\MNS\Requests\SetTopicAttributeRequest;
-use Aliyun\MNS\Requests\PublishMessageRequest;
+use Heifan\MNS\Client;
+use Heifan\MNS\Topic;
+use Heifan\MNS\Constants;
+use Heifan\MNS\AsyncCallback;
+use Heifan\MNS\Model\TopicAttributes;
+use Heifan\MNS\Model\MailAttributes;
+use Heifan\MNS\Model\SmsAttributes;
+use Heifan\MNS\Model\BatchSmsAttributes;
+// use Heifan\MNS\Model\WebSocketAttributes;
+use Heifan\MNS\Model\MessageAttributes;
+use Heifan\MNS\Model\SubscriptionAttributes;
+use Heifan\MNS\Model\UpdateSubscriptionAttributes;
+use Heifan\MNS\Exception\MnsException;
+use Heifan\MNS\Requests\CreateQueueRequest;
+use Heifan\MNS\Requests\CreateTopicRequest;
+use Heifan\MNS\Requests\GetTopicAttributeRequest;
+use Heifan\MNS\Requests\SetTopicAttributeRequest;
+use Heifan\MNS\Requests\PublishMessageRequest;
 
 class TopicTest extends \PHPUnit_Framework_TestCase
 {

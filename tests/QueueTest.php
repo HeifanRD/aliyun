@@ -1,20 +1,20 @@
 <?php
 
-use Aliyun\MNS\Client;
-use Aliyun\MNS\Constants;
-use Aliyun\MNS\AsyncCallback;
-use Aliyun\MNS\Model\QueueAttributes;
-use Aliyun\MNS\Exception\MnsException;
-use Aliyun\MNS\Exception\BatchSendFailException;
-use Aliyun\MNS\Exception\BatchDeleteFailException;
-use Aliyun\MNS\Requests\CreateQueueRequest;
-use Aliyun\MNS\Requests\GetQueueAttributeRequest;
-use Aliyun\MNS\Requests\SetQueueAttributeRequest;
-use Aliyun\MNS\Requests\SendMessageRequest;
-use Aliyun\MNS\Requests\BatchSendMessageRequest;
-use Aliyun\MNS\Requests\BatchReceiveMessageRequest;
-use Aliyun\MNS\Requests\BatchPeekMessageRequest;
-use Aliyun\MNS\Model\SendMessageRequestItem;
+use Heifan\MNS\Client;
+use Heifan\MNS\Constants;
+use Heifan\MNS\AsyncCallback;
+use Heifan\MNS\Model\QueueAttributes;
+use Heifan\MNS\Exception\MnsException;
+use Heifan\MNS\Exception\BatchSendFailException;
+use Heifan\MNS\Exception\BatchDeleteFailException;
+use Heifan\MNS\Requests\CreateQueueRequest;
+use Heifan\MNS\Requests\GetQueueAttributeRequest;
+use Heifan\MNS\Requests\SetQueueAttributeRequest;
+use Heifan\MNS\Requests\SendMessageRequest;
+use Heifan\MNS\Requests\BatchSendMessageRequest;
+use Heifan\MNS\Requests\BatchReceiveMessageRequest;
+use Heifan\MNS\Requests\BatchPeekMessageRequest;
+use Heifan\MNS\Model\SendMessageRequestItem;
 
 class QueueTest extends \PHPUnit_Framework_TestCase
 {

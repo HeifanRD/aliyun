@@ -1,9 +1,9 @@
 <?php
-namespace Aliyun\MNS\Exception;
+namespace Heifan\MNS\Exception;
 
-use Aliyun\MNS\Constants;
-use Aliyun\MNS\Exception\MnsException;
-use Aliyun\MNS\Model\SendMessageResponseItem;
+use Heifan\MNS\Constants;
+use Heifan\MNS\Exception\MnsException;
+use Heifan\MNS\Model\SendMessageResponseItem;
 
 /**
  * BatchSend could fail for some messages,

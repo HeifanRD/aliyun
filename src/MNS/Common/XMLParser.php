@@ -1,5 +1,5 @@
 <?php
-namespace Aliyun\MNS\Common;
+namespace Heifan\MNS\Common;
 
 class XMLParser
 {

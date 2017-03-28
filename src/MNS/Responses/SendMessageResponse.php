@@ -1,14 +1,14 @@
 <?php
-namespace Aliyun\MNS\Responses;
+namespace Heifan\MNS\Responses;
 
-use Aliyun\MNS\Constants;
-use Aliyun\MNS\Exception\MnsException;
-use Aliyun\MNS\Exception\QueueNotExistException;
-use Aliyun\MNS\Exception\InvalidArgumentException;
-use Aliyun\MNS\Exception\MalformedXMLException;
-use Aliyun\MNS\Responses\BaseResponse;
-use Aliyun\MNS\Common\XMLParser;
-use Aliyun\MNS\Traits\MessageIdAndMD5;
+use Heifan\MNS\Constants;
+use Heifan\MNS\Exception\MnsException;
+use Heifan\MNS\Exception\QueueNotExistException;
+use Heifan\MNS\Exception\InvalidArgumentException;
+use Heifan\MNS\Exception\MalformedXMLException;
+use Heifan\MNS\Responses\BaseResponse;
+use Heifan\MNS\Common\XMLParser;
+use Heifan\MNS\Traits\MessageIdAndMD5;
 
 class SendMessageResponse extends BaseResponse
 {

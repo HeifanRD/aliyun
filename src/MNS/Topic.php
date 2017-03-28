@@ -1,27 +1,27 @@
 <?php
-namespace Aliyun\MNS;
+namespace Heifan\MNS;
 
-use Aliyun\MNS\Http\HttpClient;
-use Aliyun\MNS\AsyncCallback;
-use Aliyun\MNS\Model\TopicAttributes;
-use Aliyun\MNS\Model\SubscriptionAttributes;
-use Aliyun\MNS\Model\UpdateSubscriptionAttributes;
-use Aliyun\MNS\Requests\SetTopicAttributeRequest;
-use Aliyun\MNS\Responses\SetTopicAttributeResponse;
-use Aliyun\MNS\Requests\GetTopicAttributeRequest;
-use Aliyun\MNS\Responses\GetTopicAttributeResponse;
-use Aliyun\MNS\Requests\PublishMessageRequest;
-use Aliyun\MNS\Responses\PublishMessageResponse;
-use Aliyun\MNS\Requests\SubscribeRequest;
-use Aliyun\MNS\Responses\SubscribeResponse;
-use Aliyun\MNS\Requests\UnsubscribeRequest;
-use Aliyun\MNS\Responses\UnsubscribeResponse;
-use Aliyun\MNS\Requests\GetSubscriptionAttributeRequest;
-use Aliyun\MNS\Responses\GetSubscriptionAttributeResponse;
-use Aliyun\MNS\Requests\SetSubscriptionAttributeRequest;
-use Aliyun\MNS\Responses\SetSubscriptionAttributeResponse;
-use Aliyun\MNS\Requests\ListSubscriptionRequest;
-use Aliyun\MNS\Responses\ListSubscriptionResponse;
+use Heifan\MNS\Http\HttpClient;
+use Heifan\MNS\AsyncCallback;
+use Heifan\MNS\Model\TopicAttributes;
+use Heifan\MNS\Model\SubscriptionAttributes;
+use Heifan\MNS\Model\UpdateSubscriptionAttributes;
+use Heifan\MNS\Requests\SetTopicAttributeRequest;
+use Heifan\MNS\Responses\SetTopicAttributeResponse;
+use Heifan\MNS\Requests\GetTopicAttributeRequest;
+use Heifan\MNS\Responses\GetTopicAttributeResponse;
+use Heifan\MNS\Requests\PublishMessageRequest;
+use Heifan\MNS\Responses\PublishMessageResponse;
+use Heifan\MNS\Requests\SubscribeRequest;
+use Heifan\MNS\Responses\SubscribeResponse;
+use Heifan\MNS\Requests\UnsubscribeRequest;
+use Heifan\MNS\Responses\UnsubscribeResponse;
+use Heifan\MNS\Requests\GetSubscriptionAttributeRequest;
+use Heifan\MNS\Responses\GetSubscriptionAttributeResponse;
+use Heifan\MNS\Requests\SetSubscriptionAttributeRequest;
+use Heifan\MNS\Responses\SetSubscriptionAttributeResponse;
+use Heifan\MNS\Requests\ListSubscriptionRequest;
+use Heifan\MNS\Responses\ListSubscriptionResponse;
 
 class Topic
 {

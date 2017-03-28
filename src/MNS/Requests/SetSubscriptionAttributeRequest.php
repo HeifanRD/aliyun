@@ -1,9 +1,9 @@
 <?php
-namespace Aliyun\MNS\Requests;
+namespace Heifan\MNS\Requests;
 
-use Aliyun\MNS\Constants;
-use Aliyun\MNS\Requests\BaseRequest;
-use Aliyun\MNS\Model\UpdateSubscriptionAttributes;
+use Heifan\MNS\Constants;
+use Heifan\MNS\Requests\BaseRequest;
+use Heifan\MNS\Model\UpdateSubscriptionAttributes;
 
 class SetSubscriptionAttributeRequest extends BaseRequest
 {
